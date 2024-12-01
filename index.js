@@ -54,10 +54,11 @@ console.log("---------------------------------------------")
 console.log(course1.getGrades())
 console.log("---------------------------------------------")
 console.log("Students ordered by average grade:")
-console.log("Student - avg grade")
+
 console.log("-".repeat(30))
 console.log(school.getStudentsOrderedByAverageGrade())
 console.log("-".repeat(30))
+console.log("Student - avg grade")
 school.getStudents().forEach((student) => {
     console.log(student.name, student.getAverageGrade())
 })

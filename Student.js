@@ -7,7 +7,7 @@ class Student extends Person {
     }
     setId() {
         if(this.id === null ){
-            this.id = Math.random();
+            this.id = Math.ceil(Math.random()*10);
         }  
     }
     getId() {
@@ -33,4 +33,6 @@ class Student extends Person {
         }
     }
 } 
+
+
 module.exports = Student;

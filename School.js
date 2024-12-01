@@ -16,7 +16,7 @@ class School extends Course {
     addStudent(student) {
         if (student.age() > 18) {
             if (this.students.indexOf(student) === -1) {
-                student.setId(Math.ceil(Math.random()))
+                student.setId()
                 this.students.push(student);
             }
         }
