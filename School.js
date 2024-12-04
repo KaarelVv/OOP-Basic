@@ -46,5 +46,10 @@ class School extends Course {
         orderByAvg.sort((a, b) => b.averageGrade - a.averageGrade)
         return orderByAvg;
     }
+
+    description() {
+        let name = `${this.name}  School klassi nimi`
+        return name;
+    };
 }
 module.exports = School;

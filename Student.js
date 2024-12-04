@@ -32,6 +32,11 @@ class Student extends Person {
            return avg;
         }
     }
+
+    description() {
+        let name = `${this.name}  Student klassi nimi`
+        return name;
+    };
 } 
 
 

@@ -27,5 +27,10 @@ class Course extends Student {
                return avg;
             }
         }
+
+        description() {
+            let name = `${this.name}  Course klassi nimi`
+            return name;
+        };
     }
 module.exports = Course;

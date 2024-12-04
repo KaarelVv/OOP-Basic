@@ -15,11 +15,10 @@ class Person {
     getName() {
         return this.name;
     }
-    toString() {
-        return `Name - ${this.name}`;
-    }
+   
     description() {
-        return this.toString()
+        let name = `${this.name}  Person klassi nimi`
+        return name;
     };
 }
 module.exports = Person;
