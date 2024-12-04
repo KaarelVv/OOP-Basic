@@ -67,3 +67,6 @@ console.log("Course average grades")
 school.getCourses().forEach((course) => {
     console.log(course.name, course.getAverageGrade())
 })
+//Calling function from Person class to provide school name!
+console.log(school.description())
+
